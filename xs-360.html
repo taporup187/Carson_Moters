@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>360 view of XS</title>
+<link rel="stylesheet" href="https://cdn.rawgit.com/austenpayan/rollerblade/416da2f4/rollerblade.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/austenpayan/rollerblade/416da2f4/rollerblade.js"></script>
+<!-- link fav icon -->
+<link rel="shortcut icon" href="img/favicon1.png" type="image/x-icon">
+<!-- font awsome -->
+<script src="https://kit.fontawesome.com/1c44fb3eac.js" crossorigin="anonymous"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  
+ }
+ body{
+  background: #000;
+ }
+  .mouse{
+  text-align:center;
+  padding:20px 0px;
+  font-size:20px;
+}
+
+.rollerblade{
+  text-align:center;
+}
+	
+	
+.backbtn i{
+  
+  text-decoration: none;
+  color: #fff;
+}
+.backbtn a{
+  
+  text-decoration: none;
+  color: #fff;
+}
+.backbtn a:hover{
+  
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 0 10px #dcb336;
+  border-radius: 20px;
+  transition-duration: .2s;
+}
+
+.backbtn {
+  margin-top: 50px;
+}
+	
+</style>
+<script src="https://cdn.jsdelivr.net/npm/@mladenilic/threesixty.js/dist/threesixty.js"></script>
+</head>
+
+<body>
+	
+ 
+  <div id="target" class="rollerblade">
+    <img src="./xs360/car_(1).png" alt="Rollerblade.js"/>
+  </div>
+  
+
+  <div class="mouse"> <h1>XS<br>From Rs.21 Lakhs<br></h1>
+    <p style="padding-top: 20px;">Drage the mouse  <i class="fa-solid fa-arrow-pointer"></i> </p>
+    <div class="backbtn">
+    <a href="./XS.html" style="background: #dcb336; font-weight:600; padding:10px 20px ;"><i class="fa-solid fa-arrow-left"></i> BACK</a>
+    </div>
+    </div>
+
+	
+	
+  <script>
+    $(document).ready(function($) { 
+  $("#target").rollerblade({
+    sensitivity : 10,
+    imageArray:['./xs360/car_(1).png','./xs360/car_(2).png','./xs360/car_(3).png','./xs360/car_(4).png',
+			'./xs360/car_(5).png','./xs360/car_(6).png','./xs360/car_(7).png','./xs360/car_(8).png','./xs360/car_(9).png','./xs360/car_(10).png','./xs360/car_(11).png',
+				'./xs360/car_(12).png','./xs360/car_(13).png','./xs360/car_(14).png',
+				'./xs360/car_(15).png','./xs360/car_(16).png','./xs360/car_(17).png',
+				'./xs360/car_(18).png','./xs360/car_(19).png','./xs360/car_(20).png',
+				'./xs360/car_(21).png','./xs360/car_(22).png','./xs360/car_(23).png',
+				'./xs360/car_(24).png','./xs360/car_(25).png','./xs360/car_(26).png',
+				'./xs360/car_(27).png','./xs360/car_(28).png','./xs360/car_(29).png',
+				'./xs360/car_(30).png','./xs360/car_(31).png','./xs360/car_(32).png',
+				'./xs360/car_(33).png','./xs360/car_(34).png',
+				'./xs360/car_(35).png','./xs360/car_(36).png','./xs360/car_(37).png',
+				'./xs360/car_(37).png']}); });
+  </script>
+</body>
+</html>
